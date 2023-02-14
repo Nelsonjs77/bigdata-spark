@@ -1,12 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-//print the string enclosed in double quotes
+int main() {
 
-  cout << "hello world" << endl;
-  cout << "hello galaxy" << endl;
-  cout << "hello universo" << endl;
+  int first_number, second_number, sum;
+
+  cout << "Enter two integers: ";
+  cin >> first_number >> second_number;
+
+  // sum of two numbers in stored in variable sumOfTwoNumbers
+  sum = first_number + second_number;
+
+  // prints sum
+  cout << first_number << " + " <<  second_number << " = " << sum;
 
   return 0;
 }
